@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="singlenet_tflite_class"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rock/github/singlenet-class/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rock/github/singlenet-class/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rock/github/singlenet-class/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singlenet_tflite_class">
+				<Option output="/home/rock/github/singlenet-class/cmake-build-release/singlenet_tflite_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rock/github/singlenet-class/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rock/github/singlenet-class/util"/>
+					<Add directory="/home/rock/github/singlenet-class/inference"/>
+					<Add directory="/home/rock/github/singlenet-class/video"/>
+					<Add directory="/home/rock/github/singlenet-class/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 singlenet_tflite_class"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singlenet_tflite_class/fast">
+				<Option output="/home/rock/github/singlenet-class/cmake-build-release/singlenet_tflite_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rock/github/singlenet-class/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rock/github/singlenet-class/util"/>
+					<Add directory="/home/rock/github/singlenet-class/inference"/>
+					<Add directory="/home/rock/github/singlenet-class/video"/>
+					<Add directory="/home/rock/github/singlenet-class/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 singlenet_tflite_class/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/rock/github/singlenet-class/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rock/github/singlenet-class/inference/CentroidTracker.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/inference/CentroidTracker.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/inference/FallCheck.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/inference/FallCheck.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/inference/KPDetect.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/inference/KPDetect.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/main.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/mqtt/mqtt.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/mqtt/mqtt.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/util/kputil.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/util/kputil.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/video/VideoProcess.cpp">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/video/VideoProcess.h">
+			<Option target="singlenet_tflite_class"/>
+		</Unit>
+		<Unit filename="/home/rock/github/singlenet-class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

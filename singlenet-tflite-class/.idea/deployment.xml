@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="rock (1fbf955b-011e-4596-b38e-bd418306abd9)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="rock (1fbf955b-011e-4596-b38e-bd418306abd9)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/rock/singlenet" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-rock" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="rock (504729f1-0247-40f5-89d0-2e663825f13a)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/rock/test" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-rock" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-rock" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

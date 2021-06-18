@@ -1,0 +1,14 @@
+//
+// Created by axv on 2021/5/28.
+//
+
+#ifndef SINGLENET_TFLITE_CLASS_FALLCHECK_H
+#define SINGLENET_TFLITE_CLASS_FALLCHECK_H
+
+
+class FallCheck {
+
+};
+
+
+#endif //SINGLENET_TFLITE_CLASS_FALLCHECK_H
